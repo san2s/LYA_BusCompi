@@ -1,0 +1,17 @@
+// Ejemplo de código para el compilador de gestión de rutas de autobús escolar
+
+// Declaración de variables
+INT numPasajeros = 30;
+FLOAT latitud = 37.7749;
+FLOAT longitud = -122.4194;
+STRING mensaje = "Autobús en ruta";
+BOOL lucesEncendidas = TRUE;
+INT a = 0;
+
+//Estructura de funcion imprimir mensaje
+PRINTLN("hola");
+
+WHILE (numPasajeros>0) {
+    PRINTLN(numPasajeros);
+    numPasajeros = numPasajeros - 1;
+}

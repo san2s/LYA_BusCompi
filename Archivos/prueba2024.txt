@@ -1,0 +1,17 @@
+// Ejemplo de código para el compilador de gestión de rutas de autobús escolar
+
+// Declaración de variables
+INT numPasajeros = 30;
+FLOAT latitud = 37.7749;
+FLOAT longitud = -122.4194;
+STRING mensaje = "Autobús en ruta";
+BOOL lucesEncendidas = True;
+
+// Estructura condicional
+IF (numPasajeros > 20) {
+    SHOW MESSAGE_DIALOG("El autobús está lleno");
+} ELSE {
+    SHOW MESSAGE_DIALOG("Hay espacio disponible");
+}
+
+numPasajeros="hola";

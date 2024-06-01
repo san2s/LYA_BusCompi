@@ -1,0 +1,7 @@
+INT a = 30;
+
+WHILE (a>0)
+{
+PRINTLN("hola");
+a = a - 1;
+};

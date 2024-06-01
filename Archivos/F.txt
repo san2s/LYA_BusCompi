@@ -1,0 +1,34 @@
+// Ejemplo de código para el compilador de gestión de rutas de autobús escolar
+
+// Declaración de variables
+INT numPasajeros = 30;
+FLOAT latitud = 37.7749;
+FLOAT longitud = -122.4194;
+STRING mensaje = "Autobús en ruta";
+BOOL lucesEncendidas = TRUE;
+INT a = 0;
+
+
+//Array
+INT[ ] edad = {45, 23, 11, 9};
+
+// Estructura condicional
+IF (numPasajeros > 20) {
+    SHOW MESSAGE_DIALOG("El autobús está lleno");
+} ELSE {
+    SHOW MESSAGE_DIALOG("Hay espacio disponible");
+};
+
+//Estructura de funcion imprimir mensaje
+PRINTLN("hola");
+
+//Ciclos
+FOR (a=0; a<5) {
+    PRINTLN(a);
+    a = a + 1;
+};
+
+WHILE (numPasajeros>0) {
+    PRINTLN(numPasajeros);
+    numPasajeros = numPasajeros - 1;
+};

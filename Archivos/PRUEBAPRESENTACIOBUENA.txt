@@ -1,0 +1,38 @@
+// Declaracion de variables
+INT numPasajeros = 30
+FLOAT latitud = 37.7749;
+FLOAT longitud = -122.494
+STRING mensaje = "AutobÃºs en ruta"
+BOOL lucesEncendidas = TRUE
+
+
+//Array
+INT[ ] edad = {21, 21, 20, 60,18,23}
+
+// Estructura condicional
+IF (numPasajeros > 20) {
+    SHOW MESSAGE_DIALOG("El autobus esta lleno");
+} ELSE {
+    SHOW MESSAGE_DIALOG("Hay espacio disponible");
+}
+
+
+//Estructura de funcion imprimir mensaje
+PRINTLN("hola");
+
+PRINTLN(edad);
+GEO casaJuan(92.2,1095);
+GEO casaRaul(83742.932,232);
+GEO casaSantos(92,6.983);
+GEO casaDrFic(7834,3241);
+GEO casaBetancourt(76434,5643);
+GEO casaAdileni(92734.3,18473);
+
+
+PRINTLN(edad);
+PRINTLN(casaJuan);
+PRINTLN(casaRaul);
+PRINTLN(casaSantos);
+PRINTLN(casaDrFic);
+PRINTLN(casaBetancourt);
+PRINTLN(casaAdileni);

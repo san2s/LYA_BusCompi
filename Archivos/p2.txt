@@ -1,0 +1,5 @@
+INT a = 30;
+PRINTLN(a);
+
+a = 25;
+PRINTLN(a);
